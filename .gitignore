@@ -1,0 +1,33 @@
+# Ignore build directories
+/build/
+/main/build/
+
+# Ignore SDK config backups
+sdkconfig.old
+sdkconfig.ci
+
+# Ignore generated files
+*.elf
+*.bin
+*.map
+
+# Ignore CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore partition and flash binaries
+*.bin
+# partitions.csv
+
+# Ignore SPIFFS image files
+# spiffs_image/
+
+# General backup and system files
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
