@@ -24,6 +24,9 @@ Makefile
 # Ignore SPIFFS image files
 # spiffs_image/
 
+# Ignore VS Code settings
+.vscode/
+
 # General backup and system files
 *.log
 *.tmp
